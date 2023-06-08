@@ -570,14 +570,13 @@ a {
   cursor: default;
 }
 /*======== footer ===========*/
-.footer {
+/* .footer {
   background: #2e2100;
   padding: 96px 0;
   display: flex;
 }
 .footer .content {
   display: flex;
-  /* justify-content: space-between; */
   position: relative;
 }
 .footer .content::after {
@@ -593,7 +592,6 @@ a {
   margin-left: 145px;
 }
 .footer .row-left {
-  /* margin-right: 10px; */
   width: 267px;
 }
 .footer .row-left .desc {
@@ -623,7 +621,6 @@ a {
 .row-right .heading {
   position: relative;
   font-weight: 600;
-  /* padding: 14px 0; */
   padding-bottom: 43px;
   font-size: 1.6rem;
   color: #ffffff;
@@ -639,7 +636,6 @@ a {
   background: #59554b;
 }
 .row-right .list .item {
-  /* width: 231px; */
   margin-top: 12px;
   font-weight: 400;
   font-size: 1.4rem;
@@ -666,4 +662,83 @@ a {
   font-size: 14px;
   text-align: center;
   color: #807d74;
+} */
+.footer {
+  background: #2e2100;
+  padding: 96px 135px 0;
+}
+.footer .row {
+  display: flex;
+}
+.footer .column {
+  width: 21.6%;
+}
+.footer .column:first-child {
+  width: 35%;
+}
+.footer .heading {
+  position: relative;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #ffffff;
+}
+.footer .heading::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 130px;
+  height: 1px;
+  left: 0;
+  bottom: -14px;
+  /* margin-top: 14px; */
+  background: #59554b;
+}
+.footer .desc {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+.footer .column .desc {
+  margin-top: 18px;
+  max-width: 267px;
+}
+.footer .social {
+  margin-top: 18px;
+}
+.footer .social-link {
+  margin-left: 14px;
+}
+.footer .social-link:first-child {
+  margin-left: 0;
+}
+.footer .column .list {
+  margin-top: 43px;
+}
+.footer .list a {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+.footer .list strong {
+  font-weight: 600;
+  color: #fff;
+}
+.footer .Copyright {
+  position: relative;
+  padding: 67px 0 26px;
+  text-align: center;
+}
+.footer .Copyright::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 1170px;
+  height: 1px;
+  left: 0;
+  top: 38px;
+  background: #59554b;
 }
